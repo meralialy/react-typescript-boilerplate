@@ -1,0 +1,51 @@
+# Default Behavior
+# Set default behavior to automatically normalize line endings for all files
+* text=auto
+
+# Source Code
+# Ensure source files always use LF (Unix-style) line endings
+*.ts text eol=lf
+*.tsx text eol=lf
+*.js text eol=lf
+*.jsx text eol=lf
+*.css text eol=lf
+*.scss text eol=lf
+*.html text eol=lf
+
+# Configuration & Build
+# Ensure config files and Makefiles use LF
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+Makefile text eol=lf
+
+# Scripts
+# Shell scripts must use LF to execute correctly on Unix-based systems
+*.sh text eol=lf
+
+# Documentation
+# Ensure markdown files are consistent
+*.md text eol=lf
+
+# Generated Files
+# Mark lock files as generated to exclude them from GitHub language statistics
+yarn.lock linguist-generated
+package-lock.json linguist-generated
+
+# Binary Files
+# Treat images as binary to prevent Git from modifying them
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.svg text
+
+# Export Ignore
+# Exclude development and configuration files from 'git archive' exports
+.gitattributes export-ignore
+.gitignore export-ignore
+.dockerignore export-ignore
+.editorconfig export-ignore
+.vscode export-ignore
+coverage export-ignore

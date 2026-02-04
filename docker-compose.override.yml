@@ -1,0 +1,10 @@
+services:
+    web:
+        volumes:
+            - .:/app
+            - /app/node_modules # Important: keep container modules separate from host
+        env_file: .env # 1. Read the file
+        environment:
+            - PORT=${PORT:-3000}
+            - HOST=${HOST:-0.0.0.0}
+            - NODE_ENV=development

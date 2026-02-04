@@ -1,0 +1,39 @@
+# Dependencies
+# Ignore node_modules to ensure dependencies are installed cleanly
+node_modules
+/.pnp
+.pnp.js
+
+# Build Output
+# Ignore local build artifacts to prevent conflicts
+dist
+build
+
+# Environment Variables
+# Ignore local environment files to prevent secrets from being leaked
+.env
+
+# IDE & Editor Configuration
+# Ignore editor-specific settings and temporary files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.swp
+*.swo
+
+# Testing & Coverage
+# Ignore test coverage reports
+coverage
+
+# Logs
+# Ignore local debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# OS Files
+# Ignore operating system generated files
+.DS_Store
+Thumbs.db
+Desktop.ini

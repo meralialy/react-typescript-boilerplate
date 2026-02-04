@@ -1,0 +1,23 @@
+:root {
+    color-scheme: light dark;
+    --background-color: #ffffff;
+    --text-color: #000000;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-color: #1c1e24;
+        --text-color: #ffffff;
+    }
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}

@@ -1,0 +1,12 @@
+services:
+    web:
+        build:
+            context: .
+            target: production
+        ports:
+            - "443:3000"
+        restart: unless-stopped
+        logging:
+            driver: "json-file"
+            options:
+                max-size: "10m"

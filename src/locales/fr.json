@@ -1,0 +1,22 @@
+{
+    "home-page": {
+        "translation": "Page d'accueil",
+        "notes": "noun"
+    },
+    "welcome": {
+        "translation": "Bienvenue sur le tracker",
+        "notes": "greeting"
+    },
+    "loading": {
+        "translation": "Chargement de l'application...",
+        "notes": "status"
+    },
+    "about": {
+        "translation": "À propos de nous",
+        "notes": "navigation link"
+    },
+    "page_not_found": {
+        "translation": "404 Page non trouvée",
+        "notes": "error message"
+    }
+}

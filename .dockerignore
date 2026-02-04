@@ -1,0 +1,36 @@
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+
+# Build Output
+dist
+build
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Version Control
+.git
+
+# IDE & Editor Configuration
+.vscode
+.idea
+*.swp
+*.swo
+
+# Testing & Coverage
+coverage
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# OS Files
+.DS_Store
+Thumbs.db
+Desktop.ini
